@@ -1,0 +1,123 @@
+[
+  {
+    "author": "Mohammad Sajid Anwar",
+    "title": "Design Patterns In Modern Perl",
+    "code": "patterns",
+    "target_date": "2025-11-29",
+    "tasks": [
+      {
+        "task": "MS complete",
+        "complete": "2025-11-18"
+      },
+      {
+        "task": "Cover design",
+        "complete": "2025-11-19"
+      },
+      {
+        "task": "Standard 'About' sections",
+        "complete": null
+      },
+      {
+        "task": "Foreword",
+        "complete": null
+      },
+      {
+        "task": "Assign ISBN",
+        "complete": null
+      },
+      {
+        "task": "Generate PDF/ePub",
+        "complete": null
+      },
+      {
+        "task": "Pricing",
+        "complete": null
+      },
+      {
+        "task": "Perl School website",
+        "complete": null
+      },
+      {
+        "task": "Upload code to website",
+        "complete": null
+      },
+      {
+        "task": "Upload to Amazon",
+        "complete": null
+      },
+      {
+        "task": "Upload to LeanPub",
+        "complete": null
+      },
+      {
+        "task": "Upload to Amazon",
+        "complete": null
+      },
+      {
+        "task": "Publish",
+        "complete": null
+      }
+    ]
+  },
+  {
+    "author": "Dave Cross",
+    "title": "Data Munging with Perl [2ed]",
+    "code": "dmp2",
+    "target_date": "2025-12-25",
+    "tasks": [
+      {
+        "task": "MS complete",
+        "complete": null
+      },
+      {
+        "task": "Cover design",
+        "complete": "2024-10-26"
+      },
+      {
+        "task": "Standard 'About' sections",
+        "complete": null
+      },
+      {
+        "task": "Foreword",
+        "complete": null
+      },
+      {
+        "task": "Assign ISBN",
+        "complete": null
+      },
+      {
+        "task": "Generate PDF/ePub",
+        "complete": null
+      },
+      {
+        "task": "Pricing",
+        "complete": null
+      },
+      {
+        "task": "Perl School website",
+        "complete": null
+      },
+      {
+        "task": "Upload code to website",
+        "complete": null
+      },
+      {
+        "task": "Upload to Amazon",
+        "complete": null
+      },
+      {
+        "task": "Upload to LeanPub",
+        "complete": null
+      },
+      {
+        "task": "Upload to Amazon",
+        "complete": null
+      },
+      {
+        "task": "Publish",
+        "complete": null
+      }
+    ]
+  }
+]
+
