@@ -7,18 +7,22 @@
     "tasks": [
       {
         "task": "MS complete",
+        "status": "done",
         "complete": "2025-11-18"
       },
       {
         "task": "Cover design",
-        "complete": "2025-11-19"
+        "status": "in_progress",
+        "complete": null
       },
       {
         "task": "Standard 'About' sections",
+        "status": "done",
         "complete": "2025-11-20"
       },
       {
         "task": "Foreword",
+        "status": "complete",
         "complete": "2025-11-20"
       },
       {
@@ -27,6 +31,7 @@
       },
       {
         "task": "Generate PDF/ePub",
+        "status": "in_progress",
         "complete": null
       },
       {
@@ -35,6 +40,7 @@
       },
       {
         "task": "Perl School website",
+        "status": "in_progress",
         "complete": null
       },
       {

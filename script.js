@@ -66,32 +66,54 @@ function renderProjectDetails(project) {
 
   const tasks = Array.isArray(project.tasks) ? project.tasks : [];
   const totalTasks = tasks.length;
-  const completedTasks = tasks.filter((t) => t.complete).length;
+  const completedTasks = tasks.filter((t) => {
+    const status = t.status || (t.complete ? "done" : "todo");
+    return status === "done";
+  }).length;
 
-  const tasksHtml =
-    totalTasks === 0
-      ? '<p class="muted">No tasks listed yet.</p>'
-      : `
+const tasksHtml =
+  totalTasks === 0
+    ? '<p class="muted">No tasks listed yet.</p>'
+    : `
     <ul class="task-list">
       ${tasks
         .map((task) => {
-          const done = Boolean(task.complete);
-          const icon = done ? "✓" : "○";
-          const tooltip = done
+          const status = task.status || (task.complete ? "done" : "todo");
+          const isDone = status === "done";
+          const isInProgress = status === "in_progress";
+
+          const icon = isDone ? "✓" : isInProgress ? "⏳" : "○";
+          const statusClass = isDone
+            ? "task-status done"
+            : isInProgress
+              ? "task-status in-progress"
+              : "task-status pending";
+
+          const tooltip = isDone
             ? `Completed on ${formatDate(task.complete)}`
-            : "Not completed yet";
-          const statusClass = done ? "task-status done" : "task-status pending";
+            : isInProgress
+              ? "Currently in progress"
+              : "Not started yet";
+
+          const badge =
+            isInProgress
+              ? '<span class="task-badge task-badge-in-progress">In progress</span>'
+              : "";
 
           return `
             <li class="task-item">
               <span class="${statusClass}" title="${tooltip}">${icon}</span>
-              <span class="task-label">${task.task}</span>
+              <span class="task-label">
+                ${task.task}
+                ${badge}
+              </span>
             </li>
           `;
         })
         .join("")}
     </ul>
   `;
+
 
   detailsEl.innerHTML = `
     <div class="project-header">
