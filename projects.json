@@ -27,7 +27,8 @@
       },
       {
         "task": "Assign ISBN",
-        "complete": null
+        "status": "done",
+        "complete": "2025-11-21"
       },
       {
         "task": "Generate PDF/ePub",
