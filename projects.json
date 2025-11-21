@@ -40,8 +40,8 @@
       },
       {
         "task": "Perl School website",
-        "status": "in_progress",
-        "complete": null
+        "status": "done",
+        "complete": "2025-11-21"
       },
       {
         "task": "Upload code to website",
