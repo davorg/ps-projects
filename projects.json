@@ -12,8 +12,8 @@
       },
       {
         "task": "Cover design",
-        "status": "in_progress",
-        "complete": null
+        "status": "done",
+        "complete": "2025-11-24"
       },
       {
         "task": "Standard 'About' sections",
@@ -32,8 +32,8 @@
       },
       {
         "task": "Generate PDF/ePub",
-        "status": "in_progress",
-        "complete": null
+        "status": "done",
+        "complete": "2025-11-24"
       },
       {
         "task": "Pricing",
