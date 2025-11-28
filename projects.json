@@ -33,11 +33,12 @@
       {
         "task": "Generate PDF/ePub",
         "status": "done",
-        "complete": "2025-11-24"
+        "complete": "2025-11-28"
       },
       {
         "task": "Pricing",
-        "complete": null
+        "status": "done",
+        "complete": "2025-11-27"
       },
       {
         "task": "Perl School website",
