@@ -47,23 +47,23 @@
       },
       {
         "task": "Upload code to website",
-        "complete": null
+        "status": "done",
+        "complete": "2025-11-28"
       },
       {
         "task": "Upload to Amazon",
-        "complete": null
+        "status": "done",
+        "complete": "2025-11-28"
       },
       {
         "task": "Upload to LeanPub",
-        "complete": null
-      },
-      {
-        "task": "Upload to Amazon",
-        "complete": null
+        "status": "done",
+        "complete": "2025-11-28"
       },
       {
         "task": "Publish",
-        "complete": null
+        "status": "done",
+        "complete": "2025-11-28"
       }
     ]
   },
