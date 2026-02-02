@@ -114,6 +114,7 @@ const tasksHtml =
     </ul>
   `;
 
+  const isComplete = totalTasks > 0 && completedTasks === totalTasks;
 
   detailsEl.innerHTML = `
     <div class="project-header">
@@ -132,8 +133,10 @@ const tasksHtml =
       </div>
       <div>
         <span class="meta-label">Progress:</span>
-        <span class="meta-value">
-          ${completedTasks} of ${totalTasks || 0} tasks complete
+        <span class="meta-value ${isComplete ? 'project-complete' : ''}">
+          ${isComplete 
+            ? '🎉 Project Complete! 🎉' 
+            : `${completedTasks} of ${totalTasks || 0} tasks complete`}
         </span>
       </div>
     </div>
