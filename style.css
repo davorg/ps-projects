@@ -177,6 +177,12 @@ body {
   color: var(--ps-muted);
 }
 
+.meta-value.project-complete {
+  color: var(--ps-tick);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
 /* Tasks */
 
 .task-list {
