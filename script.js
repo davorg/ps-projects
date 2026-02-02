@@ -100,11 +100,16 @@ const tasksHtml =
               ? '<span class="task-badge task-badge-in-progress">In progress</span>'
               : "";
 
+          const completionDate = isDone && task.complete 
+            ? `<span class="task-completion-date">${formatDate(task.complete)}</span>`
+            : "";
+
           return `
             <li class="task-item">
               <span class="${statusClass}" title="${tooltip}">${icon}</span>
               <span class="task-label">
                 ${task.task}
+                ${completionDate}
                 ${badge}
               </span>
             </li>
