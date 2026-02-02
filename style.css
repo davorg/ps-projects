@@ -180,7 +180,7 @@ body {
 .meta-value.project-complete {
   color: var(--ps-tick);
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 
 /* Tasks */
